@@ -4,7 +4,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background: #0d1b2a;
-    background-image: url(./src/image/plano-de-fundo.webp);
+    background-image: url(./image/plano-de-fundo.webp);
     user-select: none;
     margin: 0;
     padding: 0;
@@ -103,7 +103,7 @@ body {
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url(./src/image/plano-de-fundo2.webp);
+    background-image: url(./image/plano-de-fundo2.webp);
     background-size: cover;
     transition: 0.4s;
     transform: rotateY(0deg);
