@@ -154,16 +154,23 @@ body {
   
 @media (max-width: 600px) {
     .game {
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); 
+    grid-template-columns: repeat(4, 1fr); 
     max-width: 100%; 
     gap: 15px;
   }
 
   .item {
+    width: 100%; 
     font-size: 2em; 
     padding: 20px;
-    margin: 5px;
+    margin: 0;
+    box-sizing: border-box;
   }
+    .container {
+  width: 100%; 
+  max-width: 100%; 
+}
+
 }
 
   
