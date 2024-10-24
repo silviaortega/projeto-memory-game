@@ -152,15 +152,17 @@ body {
     }
   }
   
-  @media (max-width: 600px) {
-    .game {
-      grid-template-columns: repeat(4, 1fr); 
-      max-width: 500px;
-      min-height: 700px;
-    }
-  
-    .item {
-      font-size: 3em;
-    }
+@media (max-width: 600px) {
+  .game {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); 
+    max-width: 100%; 
+    gap: 10px;
   }
+
+  .item {
+    font-size: 2.5em; 
+    padding: 10px; 
+  }
+}
+
   
