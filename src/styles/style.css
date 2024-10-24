@@ -156,10 +156,11 @@ body {
     .game {
       grid-template-columns: repeat(4, 1fr); 
       max-width: 500px;
+      min-height: 700px;
     }
   
     .item {
-      font-size: 2em;
+      font-size: 3em;
     }
   }
   
