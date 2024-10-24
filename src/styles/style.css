@@ -156,12 +156,13 @@ body {
     .game {
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); 
     max-width: 100%; 
-    gap: 10px;
+    gap: 15px;
   }
 
   .item {
     font-size: 2em; 
-    padding: 20px; 
+    padding: 20px;
+    margin: 5px;
   }
 }
 
